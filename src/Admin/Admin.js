@@ -13,8 +13,8 @@ class Admin extends Component {
             <AdminHeader/>
         </div>
         <div className="containerAdmin">
-        <Route path="/admin/add-product" component={AddProduct} />
-        <Route path="/admin/view-stock" component={Demo} />
+          <Route path="/admin/add-product" component={AddProduct} />
+          <Route path="/admin/view-stock" component={Demo} />
       </div>
       </div>
     );
