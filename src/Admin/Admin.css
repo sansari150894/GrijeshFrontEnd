@@ -1,0 +1,28 @@
+.admin-container .adminHeader {
+  position: fixed;
+  background-color: #fff;
+  z-index: 100;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+.admin-container .adminHeader .adminLinks {
+  padding-top:18px;
+  display: flex;
+  flex-direction: row;
+}
+.admin-container .adminHeader .adminLinks .link {
+  margin-right: 30px;
+  margin-left: 10px;
+  list-style: none;
+  color: #333;
+  text-decoration: none;
+}
+
+.containerAdmin {
+  
+  width:100%;
+  margin:75px 50px 0 50px;
+}
