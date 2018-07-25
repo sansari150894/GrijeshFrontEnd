@@ -9,7 +9,7 @@ class ProductFabrics extends Component{
         return(
           <div>
               <MultiSelect/>
-              <Button onClick={this.props.onAddNewDropdown}>Modal</Button>
+              <Button onClick={this.props.onAddNewDropdown}>Add New Fabric Category</Button>
               {this.props.isAddNewDropdown ? <AddNewDropdown isAddNewDropdown={this.props.isAddNewDropdown} onAddNewDropdown={this.props.onAddNewDropdown}/>: null}
           </div>
         )

@@ -59,7 +59,7 @@ class AddProduct extends Component {
           {this.state.selectedSideMenu === '6' ? <ProductFabric onAddNewDropdown={this.onAddNewDropdown} isAddNewDropdown={this.state.isAddNewDropdown}/>:null}
         </div>
         <div>
-          <Button>Default</Button>
+          <Button>Next</Button>
         </div>
       </div>
     );
